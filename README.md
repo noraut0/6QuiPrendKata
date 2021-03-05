@@ -11,6 +11,10 @@
 ## Setup
   - Forker le projet
   - Importer le projet forké dans IntelliJ Idea : File > New > Project from Version Control > Git > Rentrer l'url du dépôt
+  - Clic droit sur le dossier java > Mark Directory as Root Source
+  - File > Project Structure > renseigner votre jdk et votre fichier de sortie <VOTRE_WORKING_DIR/out>
+  - Run > Edit Configuration > ajouter une Application > Renseigner votre jdk si ce n'est pas déjà fait
+  - Pour ajouter JUnit, la façon la plus simple est la suivante : allez dans le fichier java > test > 6QuiPrendTest > alt-Enter sur un @Test rouge > add JUnit to classpath
   - Implémenter la méthode dans java > 6QuiPrend
   - Jouer les tests dans java > 6QuiPrendTest
-  - Pousser votre pull request sur le dépôt avec votre nom dans le nom de la branche
+  - Pousser sur votre dépôt et m'envoyer le lien par mail avec les noms des contributeurs
